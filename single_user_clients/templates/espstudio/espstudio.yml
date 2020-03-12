@@ -43,6 +43,8 @@ spec:
         #
         - name: ESP_STUDIO_DB
           value: "true"
+        - name: SAS_MULTI_TENANCY_ENABLED
+          value: "true"
         - name: spring_datasource_url
           value: "jdbc:postgresql://postgres-service:80/esp"
         - name: spring_datasource_username
