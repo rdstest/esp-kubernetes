@@ -41,7 +41,9 @@ spec:
         - name: SAS_ESP_COMMON_KUBERNETES
           value: "true"
         - name: SAS_ESP_COMMON_KUBERNETES_NAMESPACE
-          value: TEMPLATE_ESP_NAMESPACE 
+          value: TEMPLATE_ESP_NAMESPACE
+        - name: SAS_ESP_COMMON_KUBERNETES_DEFAULTS_PERSISTENTVOLUMECLAIM
+          value: esp-pv
         volumeMounts:
            - mountPath: /mnt/data
              name: data
